@@ -1,0 +1,12 @@
+spring:
+  artemis:
+    mode: native
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+  jms:
+    isPubSubDomain: true
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres?currentSchema=public
+    username: postgres
+    password: admin
